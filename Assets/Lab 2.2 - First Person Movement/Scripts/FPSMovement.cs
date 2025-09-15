@@ -11,6 +11,11 @@ public class FPSMovement : MonoBehaviour
 
 	public float verticalSpeed;
 
+	private void Start()
+	{
+		Application.targetFrameRate = 15;
+	}
+
 	private void Update()
 	{
 		Vector3 movement = Vector3.zero;

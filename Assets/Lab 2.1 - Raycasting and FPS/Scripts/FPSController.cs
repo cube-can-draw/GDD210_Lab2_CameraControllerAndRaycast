@@ -32,6 +32,7 @@ public class FPSController : MonoBehaviour
 			{
 				Debug.DrawLine(CamTransform.position + new Vector3(0f, -1f, 0f), hit.point, Color.green, 1f);
 				Debug.Log(hit.collider.gameObject.name);
+				// I
 			}
 			else
 			{
