@@ -16,6 +16,7 @@ public class NormalPlayerExample : MonoBehaviour
 		if (Physics.Raycast(transform.position, -transform.position, out hit))
 		{
 			transform.up = hit.normal;
+			Debug.DrawLine(hit.point, hit.point + hit.normal);
 		}
 	}
 }

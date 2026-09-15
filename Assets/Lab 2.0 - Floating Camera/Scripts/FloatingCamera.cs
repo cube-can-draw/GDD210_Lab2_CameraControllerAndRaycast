@@ -7,6 +7,11 @@ public class FloatingCamera : MonoBehaviour
 	public float Speed;
 	public float Sensitivity;
 
+	private void Start()
+	{
+		Cursor.lockState = CursorLockMode.Locked;
+	}
+
 	private void Update()
 	{
 		float sprintMultiplier = 1f;
