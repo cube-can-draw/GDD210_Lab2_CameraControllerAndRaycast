@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Quiz.unity
     guid: a6fc5c8c4aaf9c54f85e4a3c7e11a333
+  - enabled: 1
+    path: Assets/Lab 2.4 - FPS and Physics/Scene/2.4.unity
+    guid: 34c6c7d34ab2a8a46a16f19cc9912685
   m_configObjects: {}
